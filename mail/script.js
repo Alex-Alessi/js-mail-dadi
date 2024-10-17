@@ -9,14 +9,16 @@
 //# RACCOLTA DATI
 //* creare una lista di email che possono accedere
 const emails = [
-  "Marco@gmail.com",
-  "Francesco@gmail.com",
-  "Simone@gmail.com",
-  "Luca@gmail.com",
-  "Giovanni@gmail.com",
+  "marco@gmail.com",
+  "francesco@gmail.com",
+  "simone@gmail.com",
+  "luca@gmail.com",
+  "giovanni@gmail.com",
 ];
 //* chiediamo all'utente di scrivere la sua email
 let emailUtente = prompt("Scrivi la tua email: ");
+emailUtente = emailUtente.toLowerCase();
+alert("La mail inserita è: " + emailUtente);
 
 //!VERSIONE SEMPLIFICATA
 //# ELABORAZIONE
